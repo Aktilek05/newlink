@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #f0e3e3;
+}
+
+.wrapper {
+    background-color: #0048ff;
+    height: 100vh;
+    width: 100%;
+}
+
+.main {
+    display: flex;
+    
+}
+
+.content {
+    height: 80vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left:60px ;
+
+
+}
+
+.h1 {
+    font-size: 23px;
+    margin-bottom: 30px;
+    text-shadow: 1px 2px 3px black;
+}
+.h2 {
+    margin-bottom: 30px;
+}
+
+.image {
+    height: 70vh;
+    width: 50%;
+    display: flex;
+}
+
+.img {
+    margin-top: 100px ;
+    margin-left: -100px;
+}
+
+
+.footer {
+    height: 200px;
+    width: 100%;
+    padding-left: 60px;
+}
+
+
+
+  .floating-button {
+    text-decoration: none;
+    display: inline-block;
+    width: 140px;
+    height: 45px;
+    margin-right: 30px;
+    line-height: 45px;
+    border-radius: 45px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: #524f4e;
+    background: white;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+    transition: .3s;
+  }
+  .floating-button:hover {
+    background: #0095ffa8;
+    box-shadow: 0 15px 20px rgba(0, 97, 188, 0.4);
+    color: white;
+    transform: translateY(-7px);
+  }
+
+  .btn {
+    display: flex;
+  }
+
+@media screen and (max-width:576px){
+    h1{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 20px;
+    }
+
+    .image {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:490px){
+    h1 {
+        font-size: 23px;
+    }
+
+    h2 {
+        font-size: 15px;
+    }
+    
+    .btn {
+        display: block;
+    }
+
+    .btn1 {
+        margin-bottom: 20px;
+    }
+
+    .footer h2 {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:1181px){
+    img {
+        height: 400px;
+    }
+}
+
+@media screen and (max-width:850px){
+    img {
+        height: 270px;
+        padding: 40px;
+    }
+}
+@media screen and (max-width:700px){
+    .image {
+        display: none;
+    }
+}
